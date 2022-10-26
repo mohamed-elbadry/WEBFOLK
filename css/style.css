@@ -1,0 +1,311 @@
+body , h2 , p{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+.clear{
+    clear: both;
+}
+/* start navbar */
+.navbar{
+    width: 100%;
+    height: 50px;
+    background: #360836;
+}
+.navbar ul{
+    list-style: none;
+    text-align: center;
+    line-height: 50px;
+}
+.navbar ul li{
+    display: inline-block;
+}
+.navbar ul li a{
+    color: #ff0048;
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.navbar ul li a.active{
+    color: #fff;
+}
+/* end navbar */
+/* start web folk */
+.web{
+    width: 100%;
+    height: 607px;
+    background: url(../img/cover.png);
+    background-size: cover;
+    text-align: center;
+    position: relative;
+}
+.web .folk{
+    padding-top: 80px;
+    margin-bottom: 80px;
+}
+.web .folk h2{
+  margin: 0;
+  padding: 0;
+  font-size: 50px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.web .folk p{
+    letter-spacing: 10px;
+    font-size: 25px;
+    color: #fff;
+}
+.web .dream p{
+    color: #fff;
+    font-size: 25px;
+}
+.web .work{
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    left: 45%;
+    background: #ff0048;
+    padding: 15px;
+    width: 250px;
+    font-size: 20px;
+}
+.web .work::after{
+    content: "";
+    border-top: 20px solid #ff0048;
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+    position: relative;
+    top: 55px;
+    left: -70px;
+}
+/*end web folk */
+/* start image */
+.image{
+   width: 100%;
+}
+.image .img{
+    width: 25%;
+    float: left;
+    height: 252px;
+   background: url(../img/image_1.jpg);
+}
+.image .img .over{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+}
+.image .img:hover .over{
+   opacity: 1;
+}
+.image .i_1 {background: url(../img/image_2.jpg)}
+.image .i_2 {background: url(../img/image_3.jpg)}
+.image .i_3 {background: url(../img/image_4.jpg)}
+.image .i_4 {background: url(../img/image_5.jpg)}
+.image .i_5 {background: url(../img/image_6.jpg)}
+.image .i_6 {background: url(../img/image_7.jpg)}
+.image .i_7 {background: url(../img/image_8.jpg)}
+.image .i_8 {background: url(../img/image_9.jpg)}
+.image .i_9 {background: url(../img/image_10.jpg)}
+.image .i_10 {background: url(../img/image_11.jpg)}
+.image .i_11 {background: url(../img/image_12.jpg)}
+/* end image */
+/* start meet */
+.meet{
+    width: 100%;
+    height: auto;
+    position: relative;
+    text-align: center;
+    padding-bottom: 20px;
+    background: #f5f5f5;
+}
+.meet .head{
+    position: absolute;
+    top: 0;
+    background: #ff0048;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    line-height: 50px;
+}
+.meet .head::after{
+    content: "";
+    border-top: 20px solid #ff0048;
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+    position: relative;
+    top: 55px;
+}
+.meet h2{
+    padding: 8%;
+    color: #ff0048;
+    font-size: 40px;
+}
+.meet .meet_image{
+    display: inline-block;
+}
+.meet .meet_image h3{
+    color: #ff0048;
+    font-size: 28px;
+    letter-spacing: 5px;
+}
+.meet button{
+    width: 150px;
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+/* end meet */
+/* start end */
+.end{
+    width: 100%;
+    height: auto;
+    padding-top: 7%;
+    background: url(../img/Cover_2.jpg);
+    text-align: center;
+}
+.end .content{
+    width: 400px;
+    display: inline-block;
+    color: #fff;
+    margin-top: 8%;
+    font-size: 25px;
+}
+.end button {
+    margin-top: 8%;
+    background: #fff;
+    color: #000;
+    width: 150px;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+}
+.end .bol{
+    text-align: center;
+    margin-top: 10%;
+}
+.end .bol span{
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.end .bol span:hover{
+    background:#ff0048 ;
+}
+/* end end */
+/* start footer */
+.footer{
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    background: #dddddd;
+    line-height: 80px;
+    font-size: 25px;
+}
+/* end footer */
+/******************************************************contact.html**************************************************/
+/* start contact*/
+.contact{
+    width: 100%;
+    height: 600px;
+    padding-top: 5%;
+    text-align: center;
+    background: url(../img/coverPage2.PNG);
+    background-size: cover;
+}
+.contact h2{
+    font-size: 40px;
+    font-style: italic;
+}
+.contact p{
+    font-size: 25px;
+}
+.contact .form{
+    width: 500px;
+    height: 400px;
+    margin: auto;
+}
+.contact .form h2{
+    color: #d51a5a;
+}
+.contact .form input[type=text] , textarea{
+    display: block;
+    width: 100%;
+    height: 35px;
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+    background: #d51a5a;
+    color: #fff;
+    padding-left: 10px;
+}
+textarea {
+    height: 200px;
+}
+.contact .form input[type=submit] {
+    float: right;
+    border: none;
+    background: #fff;
+    padding-left: 10px;
+    cursor: pointer;
+}
+/* end contact*/
+/* start become */
+.become{
+    width: 100%;
+    height: auto;
+    background: #f5f5f5;
+    text-align: center;
+    padding-top: 2%;
+}
+.become h2{
+    color: #d51a5a;
+    font-size: 35px;
+}
+.become p{
+    font-size: 18px;
+}
+/* end become */
+/******************************************************** Book.html ****************************************************/
+.contact .cover{
+    margin: auto;
+    width: 900px;
+    height: 400px;
+    background: #fff;
+    padding-top: 5%;
+}
+.contact .cover .left{
+    width: 45%;
+    float: left;
+    margin-left: 5%;
+    height: 252px;
+}
+.contact .cover .left img{
+    width: 100%;
+   
+}
+.contact .right p{
+    margin-bottom: 5%;
+}
+.contact .cover .right{
+    width: 45%;
+    float: right;
+    background: #eee;
+    margin-right: 5%;
+    height: 250px;
+    padding-top: 6%;
+}
+.contact .cover .right button{
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
